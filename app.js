@@ -3,7 +3,7 @@ const app = express ()
 const port = 3000
 
 app.get("/", (req,res) => {
-    res.send('INDEX SAYFASI 2')
+    res.send('INDEX SAYFASI 3')
 })
  
 app.listen(port, ()=>{
